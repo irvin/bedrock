@@ -100,7 +100,7 @@ def pre_update(ctx, ref=settings.UPDATE_REF):
 def update(ctx):
     update_assets()
     update_locales()
-    database()
+#    database()
 
 
 @task
